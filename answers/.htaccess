@@ -1,0 +1,5 @@
+<Files ~ "\.(html|txt)$">
+   order deny,allow
+   deny from all
+   allow from 127.0.0.1, 46.160.250.225
+</Files>
